@@ -1,9 +1,5 @@
-RSpec.describe Static do
+RSpec.describe Capistrano::SCM::Static do
   it "has a version number" do
-    expect(Static::VERSION).not_to be nil
-  end
-
-  it "does something useful" do
-    expect(false).to eq(true)
+    expect(Capistrano::SCM::Static::VERSION).not_to be nil
   end
 end

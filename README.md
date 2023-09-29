@@ -1,3 +1,5 @@
+** This is a fork because the original have not been updated for a long time **
+
 # capistrano scm static
 
 It is a plugin for capistrano scm to deploy static sites.
@@ -7,7 +9,7 @@ It is a plugin for capistrano scm to deploy static sites.
 
 ## Gemfile.rb
 
-`gem 'capistrano-scm-static', '~> 0.0.2', require: false`
+`gem 'capistrano-scm-static2', '~> 0.0.4', require: false`
 
 ## Capfile
 

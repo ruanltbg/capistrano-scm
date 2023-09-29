@@ -1,5 +1,5 @@
 require 'capistrano/scm/plugin'
-require "capistrano/scm/static/version"
+require 'capistrano/scm/static/version'
 
 module Capistrano
    class SCM
@@ -27,7 +27,7 @@ module Capistrano
       end
 
       def load_contents_from_dir
-        Dir.entries(fetch(:dist)).reject {|f| [".", ".."].include? f}
+        Dir.entries(fetch(:dist)).reject {|f| %w[. ..].include? f}
       end
     end
   end
