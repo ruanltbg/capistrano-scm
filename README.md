@@ -1,4 +1,4 @@
-** This is a fork because the original have not been updated for a long time **
+** This is a fork because the original have not been updated for a long time and the original don't support the latest capistrano versions **
 
 # capistrano scm static
 
